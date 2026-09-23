@@ -24,7 +24,7 @@ h1 { font-size: 22px; }
 <h1> Deal Scout Findings</h1>
 <div id="output">Loading...</div>
 <script>
-const REPO_RAW_URL = "https://raw.githubusercontent.com/AIMAYAI/deal-scout/main/results.json";
+const REPO_RAW_URL = "https://raw.githubusercontent.com/your_AIMAYAI/deal-scout/main/results.json";
 fetch(REPO_RAW_URL + "?t=" + Date.now())
 .then(r => r.json())
 .then(data => {
